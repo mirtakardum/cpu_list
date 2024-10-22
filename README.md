@@ -1,4 +1,4 @@
-# CPU Management Application
+# CPU List Application
 ## Description
 This project is a full-stack application that allows users to view and edit CPU characteristics. It consists of a Node.js backend using Express and Sequelize for API development and database interaction and a Next.js frontend for the user interface.
 
@@ -10,7 +10,7 @@ This project is a full-stack application that allows users to view and edit CPU 
 
 ## Installation
 
-1. Clone the Repository
+1. Clone the Repository <br/>
 `git clone https://github.com/mirtakardum/cpu-list.git` <br/>
 `cd cpu-list` <br/>
 2. Install Backend Dependencies
@@ -45,6 +45,7 @@ The backend will handle database synchronization using Sequelize. <br/>
 Open a terminal in the backend directory and run: <br/>
 `node app.js` <br/>
 The backend server will start on the port specified in your .env file (default is 5000). <br/>
+In case no data can be fetched, check if the backend server is on a different port. <br/>
 To seed the database tables, run: <br/>
 `sequelize db:seed:all` <br/>
 Ensure the server is running before starting the frontend. <br/>
