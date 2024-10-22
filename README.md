@@ -17,12 +17,12 @@ cd cpu-management-app`
 2. Install Backend Dependencies
 
 Navigate to the backend directory and install dependencies:
-`cd backend`
+`cd backend` <br/>
 `npm install`
 
 3. Install Frontend Dependencies
 Navigate to the frontend directory and install dependencies:
-`cd ../frontend`
+`cd ../frontend` <br/>
 `npm install`
 
 # Configuration
@@ -31,11 +31,11 @@ Navigate to the frontend directory and install dependencies:
 ## Backend Configuration
 Create a .env File in the backend directory:
 `
-PORT=5000
-DB_HOST=localhost
-DB_USER=your_db_username
-DB_PASSWORD=your_db_password
-DB_NAME=your_db_name`
+PORT=5000 <br/>
+DB_HOST=localhost <br/>
+DB_USER=your_db_username <br/>
+DB_PASSWORD=your_db_password <br/>
+DB_NAME=your_db_name` <br/>
 
 Ensure your MySQL database is running. <br/>
 Create a database matching the DB_NAME specified in your .env file. <br/>
