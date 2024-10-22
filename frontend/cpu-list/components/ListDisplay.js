@@ -9,7 +9,7 @@ const ListDisplay = () => {
     useEffect(() => {
         const fetchCpus = async () => {
         try {
-            const response = await fetch('http://localhost:3000/cpuRoutes');
+            const response = await fetch('http://localhost:5000/cpuRoutes');
             const data = await response.json();
             setCpus(data);
             console.log(cpus)

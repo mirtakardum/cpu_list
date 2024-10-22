@@ -17,7 +17,7 @@ const Form = ({cpus, cpu}) => {
     useEffect(() => {
         const fetchSockets = async () => {
         try {
-            const response = await fetch('http://localhost:3000/socketRoutes');
+            const response = await fetch('http://localhost:5000/socketRoutes');
             const data = await response.json();
             console.log(data)
             setSockets(data);
