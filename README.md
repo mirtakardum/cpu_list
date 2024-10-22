@@ -11,7 +11,7 @@ This project is a full-stack application that allows users to view and edit CPU 
 ## Installation
 
 1. Clone the Repository <br/>
-`git clone https://github.com/mirtakardum/cpu-list.git` <br/>
+`git clone https://github.com/mirtakardum/cpu_list.git` <br/>
 `cd cpu-list` <br/>
 2. Install Backend Dependencies
 Navigate to the backend directory and install dependencies: <br/>
