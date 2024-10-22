@@ -17,15 +17,15 @@ cd cpu-management-app`
 2. Install Backend Dependencies
 
 Navigate to the backend directory and install dependencies:
-`cd backend
-npm install`
+`cd backend`
+`npm install`
 
 3. Install Frontend Dependencies
 Navigate to the frontend directory and install dependencies:
-`cd ../frontend
-npm install`
+`cd ../frontend`
+`npm install`
 
-## Configuration
+# Configuration
 
 
 ## Backend Configuration
@@ -35,25 +35,24 @@ PORT=5000
 DB_HOST=localhost
 DB_USER=your_db_username
 DB_PASSWORD=your_db_password
-DB_NAME=your_db_name
-Database Setup:`
+DB_NAME=your_db_name`
 
-Ensure your MySQL database is running.
-Create a database matching the DB_NAME specified in your .env file.
-The backend will handle database synchronization using Sequelize.
+Ensure your MySQL database is running. <br/>
+Create a database matching the DB_NAME specified in your .env file. <br/>
+The backend will handle database synchronization using Sequelize. <br/>
 
 ## Frontend Configuration
-Create a .env.local File in the frontend directory:
+Create a .env.local File in the frontend directory: <br/>
 
 `NEXT_PUBLIC_API_URL=http://localhost:3000`
 
 # Running the Application
 ## Start the Backend Server
-Open a terminal in the backend directory and run:
+Open a terminal in the backend directory and run: <br/>
 
 `npm start`
-The backend server will start on the port specified in your .env file (default is 5000).
-Ensure the server is running before starting the frontend.
+The backend server will start on the port specified in your .env file (default is 5000). <br/>
+Ensure the server is running before starting the frontend. <br/>
 
 ## Start the Frontend Server
 Open a terminal in the frontend directory and run:
