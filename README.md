@@ -21,7 +21,7 @@ The sequelize package needs to be installed globally, therefore run: <br/>
 `npm install -g sequelize-cli` <br/>
 3. Install Frontend Dependencies
 Navigate to the frontend directory and install dependencies: <br/>
-`cd ../frontend` <br/>
+`cd ../frontend/cpu-list` <br/>
 `npm install` <br/>
 
 # Configuration
